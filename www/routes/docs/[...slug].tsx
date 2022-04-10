@@ -36,7 +36,7 @@ export const handler: Handlers<Data> = {
         status: 404,
       });
     }
-    const url = new URL(`../../../${entry.file}`, import.meta.url);
+    const url = new URL(`../../${entry.file}`, import.meta.url);
     const markdown = await Deno.readTextFile(url);
     const page = { ...entry, markdown };
     const resp = ctx.render({ page });
