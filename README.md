@@ -1,6 +1,6 @@
 # bfn
 
-A web framework, used like a function
+A web framework, used like function
 
 The web framework [compatible with fresh](https://bfn-fresh.deno.dev/),fork from fresh
 
